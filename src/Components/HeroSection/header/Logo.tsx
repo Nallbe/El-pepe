@@ -1,3 +1,5 @@
+import LogoImg from "../../../assets/logo_header.png";
+
 
 type LogoProps = {
   className: string;
@@ -8,7 +10,7 @@ function Logo(props: LogoProps) {
   const {className} = props
 
   return (
-    <img src="/img/logo_header.png" alt="Logo" className={className}/>
+    <img src={LogoImg} alt="Logo" className={className}/>
   )
 }
 

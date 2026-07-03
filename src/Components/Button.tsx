@@ -10,7 +10,7 @@ function Button(props: ButtonProps) {
   return (
     <button className="
       uppercase 
-      bg-orange-500 
+      bg-orange-main
       text-orange-100
       font-medium
       rounded-md
