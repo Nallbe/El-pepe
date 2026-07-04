@@ -17,11 +17,11 @@ export const HeaderNav: HeaderNavType[] = [
     link: "/our_offer",
   },
   {
-    title: "pricing'",
+    title: "pricing",
     link: "/pricing",
   },
   {
-    title: "shop'",
+    title: "shop",
     link: "/shop",
   },
 ];

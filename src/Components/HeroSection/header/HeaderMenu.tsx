@@ -15,7 +15,10 @@ function HeaderMenu() {
           text-mist-400 
             cursor-pointer 
           hover:text-mist-100
-            transition duration-200">
+            transition duration-200
+            
+            max-xl:text-[20px]
+            ">
             {item.title}
           </a>
         </li>

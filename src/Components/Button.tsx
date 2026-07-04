@@ -19,6 +19,7 @@ function Button(props: ButtonProps) {
       hover:bg-orange-400
       cursor-pointer
       transition duration-200
+      w-full
       ">{text}</button>
   )
 }

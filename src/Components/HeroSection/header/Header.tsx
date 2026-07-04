@@ -9,7 +9,9 @@ function Header() {
     <header className="flex items-center justify-between  p-6 w-full">
       <Logo className={"size-20"}/>
       <HeaderMenu/>
-      <Button text={"order now"}/>
+      <div className="max-lg:hidden">
+        <Button text={"order now"}/>
+      </div>
     </header>
   )
 }

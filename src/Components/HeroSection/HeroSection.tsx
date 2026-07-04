@@ -9,7 +9,9 @@ function HeroSection() {
     <div className="
       min-h-screen
       bg-no-repeat
-      bg-cover"
+      bg-cover
+      
+      max-lg: bg-position-[30%]"
       style={{ backgroundImage: `url(${mainSectionImg})` }}>
         <div className="
           flex 
@@ -19,6 +21,8 @@ function HeroSection() {
           pt-3
           w-[75%]
           m-auto
+
+          max-lg: w-[90%]
           ">
       <Header/>
       <HeroContent/>
