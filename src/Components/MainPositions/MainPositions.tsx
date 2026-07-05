@@ -38,9 +38,10 @@ function MainPositions() {
 
                 sm:flex-row
                 lg:bg-position-[85%]
-                ${item.position === "right" ? "sm:justify-end" : "sm:justify-start"}`}>
+                ${item.position === "right" ? "sm:justify-end " : "sm:justify-start md:items-end"}`}>
               <div
-                className="
+                className={
+                  `
                   flex
                   min-h-80
                   w-full
@@ -54,9 +55,11 @@ function MainPositions() {
 
                   lg:w-[50%]
                   xl:pl-13
-                  2xl:pl-15">
+                  2xl:pl-15
+                  ${item.position === "right" ? "sm:items-end " : "sm:items-start"}`
+                }>
                 <h2 className="
-                text-[40px] 
+                text-[39px] 
                 font-medium 
                 text-white-main
                 

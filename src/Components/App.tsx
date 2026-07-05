@@ -1,7 +1,8 @@
-import HeroSection from "./HeroSection/HeroSection";
+import HeroSection from './HeroSection/HeroSection';
 import MenuHighlights from './MenuHighlights/HighlightsList';
 import MainDish from './MainDish/MainDish';
 import MainPositions from './MainPositions/MainPositions';
+
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <MenuHighlights/>
       <MainDish/>
       <MainPositions/>
+
     </div>
   );
 }
