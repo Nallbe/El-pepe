@@ -2,7 +2,7 @@ import HeroSection from './HeroSection/HeroSection';
 import MenuHighlights from './MenuHighlights/HighlightsList';
 import MainDish from './MainDish/MainDish';
 import MainPositions from './MainPositions/MainPositions';
-
+import Reviews from './Reviews/Reviews';
 
 
 
@@ -18,7 +18,7 @@ function App() {
       <MenuHighlights/>
       <MainDish/>
       <MainPositions/>
-
+      <Reviews/>
     </div>
   );
 }

@@ -9,6 +9,10 @@ function Reviews() {
     flex-col
   bg-gray-secondary 
     py-12
+
+    lg:flex-row
+    lg:items-center
+    lg:jusify-center
       ">
       <div className="flex-center mb-10 order-0 rounded-full lg:hidden">
         <div className="
@@ -19,6 +23,25 @@ function Reviews() {
         sm:max-w-[25%] 
         md:max-w-[20%]
         shadow-[0_0px_40px_#F6762C]">
+          <img src={woman} alt="" className="w-full h-full"/>
+        </div>
+      </div>
+      <div className="flex-center hidden lg:inline w-[50%]">
+
+        <div className="
+        flex-center
+        rounded-full 
+        overflow-hidden 
+        max-w-[20%] 
+        shadow-[0_0px_120px_-20px_#F6762C]
+        
+
+        outline-2
+        outline-dashed
+      outline-[#593825]
+        outline-offset-60
+
+        ">
           <img src={woman} alt="" className="w-full h-full"/>
         </div>
       </div>
