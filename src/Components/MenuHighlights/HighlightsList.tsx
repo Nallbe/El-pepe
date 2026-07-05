@@ -5,7 +5,7 @@ function HighlightsList() {
 
   return (
     <section className="
-      bg-gray-primary
+      bg-gray-secondary
       ">
       <div className="
         flex 

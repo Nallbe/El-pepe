@@ -16,7 +16,6 @@ function MainDish() {
         lg:py-5
 
         xl:justify-around
-
         ">
         <div className="flex-center w-full lg:flex-1">
           <img 
@@ -24,7 +23,6 @@ function MainDish() {
             alt="Delicious Burger Image" 
             className='
               sm:max-w-[70%]
-              
               md:max-w-full
           '/>
         </div>
