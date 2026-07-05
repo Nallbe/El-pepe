@@ -26,12 +26,14 @@ function Reviews() {
           <img src={woman} alt="" className="w-full h-full"/>
         </div>
       </div>
-      <div className="flex-center hidden lg:inline w-[50%]">
+      <div className="flex-center hidden lg:block w-[50%]">
 
         <div className="
+
         flex-center
         rounded-full 
-        overflow-hidden 
+        overflow-hidden
+        mx-auto
         max-w-[20%] 
         shadow-[0_0px_120px_-20px_#F6762C]
         

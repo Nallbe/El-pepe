@@ -1,3 +1,8 @@
+import ChickenPaella from "../../assets/Chicken_Paella.jpg";
+import TacoDelMar from "../../assets/Taco_Del_Mar.jpg";
+import BonAuPain from "../../assets/Burger_King.jpg";
+import PizzaHut from "../../assets/Papa_Johns.jpg";
+
 export type HighlightsListType = {
   name: string;
   description: string;
@@ -8,21 +13,21 @@ export const HighlightsListMenu: HighlightsListType[] = [
           {
             name: "Chicken Paella",
             description: "We just don't make and sell food.Good food warms.",
-            imgSrc: "../../dist/img/Chicken_Paella.jpg"
+            imgSrc:ChickenPaella
           },
           {
             name: "Taco Del Mar",
             description: "Taco Del Mar brings the best out of Mexican cuisine with fresh.",
-            imgSrc: "../../dist/img/Taco_Del_Mar.jpg"
+            imgSrc:TacoDelMar
           },
           {
             name: "Bon Au Pain",
             description: "Bon Au Pain is a pioneer in the healthy fast food scene.",
-            imgSrc: "../../dist/img/Bon_Au_Pain.jpg"
+            imgSrc:BonAuPain
           },
           {
-            name: "Pizza Hut.",
+            name: "Pizza Hut",
             description: "Although the Pizza Hut Menu Prices have tumbled over the years.",
-            imgSrc: "../../dist/img/Pizza_Hut..jpg"
+            imgSrc:PizzaHut
           },
         ]
